@@ -77,7 +77,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crear mensaje - <?php echo SITE_NAME; ?></title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/create.css">
     <link rel="icon" href="assets/img/favicon.ico">
 </head>
 <body>
@@ -89,6 +89,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     <h1><?php echo SITE_NAME; ?></h1>
                 </a>
             </div>
+            <p class="tagline">Mensajes seguros que desaparecen después de ser leídos</p>
         </header>
         
         <main>
@@ -116,41 +117,43 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     </div>
                 </div>
             <?php else: ?>
-                <div class="form-container">
-                    <h2>Crear nuevo mensaje</h2>
-                    <p>El mensaje se eliminará automáticamente después de ser leído.</p>
-                    
-                    <?php if ($error): ?>
-                        <div class="error-message"><?php echo $error; ?></div>
-                    <?php endif; ?>
-                    
-                    <form method="post" enctype="multipart/form-data">
-                        <div class="form-group">
-                            <label for="content">Mensaje:</label>
-                            <textarea id="content" name="content" rows="6" required></textarea>
-                        </div>
+                <div class="card-container">
+                    <div class="card">
+                        <h2>Crear nuevo mensaje</h2>
+                        <p>El mensaje se eliminará automáticamente después de ser leído.</p>
                         
-                        <div class="form-group">
-                            <label for="password">Contraseña (opcional):</label>
-                            <input type="password" id="password" name="password" 
-                                   placeholder="Deja en blanco para no usar contraseña">
-                            <small class="form-help">Si añades una contraseña, será requerida para leer el mensaje</small>
-                        </div>
+                        <?php if ($error): ?>
+                            <div class="error-message"><?php echo $error; ?></div>
+                        <?php endif; ?>
                         
-                        <div class="form-group">
-                            <label for="attachment">Archivo adjunto (opcional):</label>
-                            <input type="file" id="attachment" name="attachment">
-                            <small class="form-help">
-                                Tamaño máximo: <?php echo formatFileSize(MAX_FILE_SIZE); ?><br>
-                                Formatos permitidos: <?php echo implode(', ', ALLOWED_EXTENSIONS); ?>
-                            </small>
-                        </div>
-                        
-                        <div class="form-actions">
-                            <a href="index.php" class="button secondary">Cancelar</a>
-                            <button type="submit" class="button">Crear mensaje</button>
-                        </div>
-                    </form>
+                        <form method="post" enctype="multipart/form-data">
+                            <div class="form-group">
+                                <label for="content">Mensaje:</label>
+                                <textarea id="content" name="content" rows="6" required></textarea>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="password">Contraseña (opcional):</label>
+                                <input type="password" id="password" name="password" 
+                                       placeholder="Deja en blanco para no usar contraseña">
+                                <small class="form-help">Si añades una contraseña, será requerida para leer el mensaje</small>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="attachment">Archivo adjunto (opcional):</label>
+                                <input type="file" id="attachment" name="attachment">
+                                <small class="form-help">
+                                    Tamaño máximo: <?php echo formatFileSize(MAX_FILE_SIZE); ?><br>
+                                    Formatos permitidos: <?php echo implode(', ', ALLOWED_EXTENSIONS); ?>
+                                </small>
+                            </div>
+                            
+                            <div class="form-actions">
+                                <a href="index.php" class="button secondary">Cancelar</a>
+                                <button type="submit" class="button">Crear mensaje</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             <?php endif; ?>
         </main>
