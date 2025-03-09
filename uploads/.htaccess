@@ -1,0 +1,7 @@
+# Denegar acceso directo a este directorio
+<FilesMatch ".*">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+# Solo permitir acceso a través de download.php
