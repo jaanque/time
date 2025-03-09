@@ -53,12 +53,16 @@ h1 {
     margin-bottom: 24px;
 }
 
+.h1 {
+    text-align: center;
+}
+
 h2 {
     font-size: 2rem;
 }
 
 h3 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-bottom: 12px;
 }
 
@@ -189,10 +193,6 @@ a:hover {
     padding: 0 20px;
 }
 
-.hero-text {
-    flex: 1;
-    padding-right: 40px;
-}
 
 .hero-description {
     font-size: 1.15rem;
@@ -207,14 +207,23 @@ a:hover {
     margin-top: 30px;
 }
 
+/* Further reduced hero image size */
 .hero-image {
-    flex: 1;
+    flex: 0.6; /* Reduce from 0.8 to 0.6 to make the image section even smaller */
 }
 
 .hero-image img {
-    width: 100%;
-    
+    width: 80%; /* Reduce width from 85% to 70% */
+    max-width: 450px; /* Reduce max-width from 500px to 400px */
+    display: block;
+    margin: 0 auto;
 }
+
+/* Adjust the hero-text to take more space */
+.hero-text {
+    flex: 1.4; /* Increase from 1.2 to 1.4 */
+}
+
 
 /* Solutions Grid */
 .solutions-grid {

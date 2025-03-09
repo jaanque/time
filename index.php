@@ -28,20 +28,20 @@ cleanupExpiredMessages();
                 <nav class="main-nav">
                     <ul>
                         <li class="dropdown">
-                            <a href="#">Soluciones <span class="dropdown-arrow">▼</span></a>
+                            <a href="#como-funciona">xxx <span class="dropdown-arrow">▼</span></a>
                         </li>
                         <li class="dropdown">
-                            <a href="#">Plataforma <span class="dropdown-arrow">▼</span></a>
+                            <a href="#">xxx <span class="dropdown-arrow">▼</span></a>
                         </li>
                         <li class="dropdown">
-                            <a href="#">Recursos <span class="dropdown-arrow">▼</span></a>
+                            <a href="#">xxx <span class="dropdown-arrow">▼</span></a>
                         </li>
-                        <li><a href="#">Precios</a></li>
+                        <li><a href="#">xxx</a></li>
                     </ul>
                 </nav>
                 <div class="nav-actions">
-                    <a href="#" class="btn btn-secondary"> Leer un mensaje <span class="btn-icon">📚</span></a>
-                    <a href="#" class="btn btn-primary"> Crear mensaje <span class="btn-icon">✨</span></a>
+                    <a href="view.php" class="btn btn-secondary"> Leer un mensaje <span class="btn-icon">📚</span></a>
+                    <a href="create.php" class="btn btn-primary"> Crear mensaje <span class="btn-icon">✨</span></a>
                 </div>
             </div>
         </header>
@@ -58,37 +58,40 @@ cleanupExpiredMessages();
                     </div>
                 </div>
                 <div class="hero-image">
-                    <img src="assets/img/diseño.png" alt="backend image preview">
+                    <img draggable="false" src="assets/img/diseño.png" alt="backend image preview">
                 </div>
             </div>
         </section>
 
         <!-- Solutions Grid -->
+         <div id="#como-funciona">
         <section class="solutions-grid">
+            <h1 class="h1">¿Cómo Funciona?</h1>
+            <br><br>
             <div class="grid-container">
                 <div class="solution-card">
                     <div class="solution-icon product-icon"></div>
-                    <h3>Producto</h3>
-                    <p>Crea un flujo ininterrumpido desde la identificación de necesidades hasta la entrega.</p>
+                    <h3>Crea un mensaje</h3>
+                    <p>Escribe tu mensaje sin necesidad de registrarte.</p>
                 </div>
                 <div class="solution-card">
                     <div class="solution-icon agency-icon"></div>
-                    <h3>Agencia digital</h3>
-                    <p>Colabora con clientes, gestiona proyectos y entrega resultados excepcionales.</p>
+                    <h3>Envía el mensaje</h3>
+                    <p>Comparte el código generado con quien desees, de forma segura.</p>
                 </div>
                 <div class="solution-card">
                     <div class="solution-icon software-icon"></div>
-                    <h3>Desarrollo de software</h3>
-                    <p>Ejecuta sprints de la manera que prefieras con flexibilidad y visibilidad.</p>
+                    <h3>El destinatario lo lee</h3>
+                    <p>El mensaje se muestra solo una vez que se abre.</p>
                 </div>
                 <div class="solution-card">
                     <div class="solution-icon startup-icon"></div>
-                    <h3>Startup</h3>
-                    <p>Inventa, construye y haz crecer tu empresa sin perder el rumbo.</p>
-                    <span class="promo-tag">6 meses gratis</span>
+                    <h3>Desaparece sin rastro</h3>
+                    <p>El mensaje se elimina automáticamente después de ser leído.</p>
                 </div>
             </div>
         </section>
+        </div>
 
         <!-- Footer -->
         <footer class="site-footer">
