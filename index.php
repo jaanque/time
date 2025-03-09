@@ -23,7 +23,7 @@ cleanupExpiredMessages();
         <header class="site-header">
             <div class="nav-container">
                 <div class="logo">
-                    <a href="index.php"><img src="assets/img/logo.svg" alt="<?php echo SITE_NAME; ?> Logo"></a>
+                    <a href="index.php"><img src="assets/img/logo.svg" alt="<?php echo SITE_NAME; ?> Logo">Nam3.es</a>
                 </div>
                 <nav class="main-nav">
                     <ul>
@@ -37,13 +37,11 @@ cleanupExpiredMessages();
                             <a href="#">Recursos <span class="dropdown-arrow">▼</span></a>
                         </li>
                         <li><a href="#">Precios</a></li>
-                        <li><a href="#" class="more-menu">•••</a></li>
                     </ul>
                 </nav>
                 <div class="nav-actions">
-                    <a href="#" class="btn btn-secondary">Programar una demo</a>
-                    <a href="#" class="btn btn-text">Iniciar sesión</a>
-                    <a href="#" class="btn btn-primary">Comenzar</a>
+                    <a href="#" class="btn btn-secondary"> Leer un mensaje <span class="btn-icon">📚</span></a>
+                    <a href="#" class="btn btn-primary"> Crear mensaje <span class="btn-icon">✨</span></a>
                 </div>
             </div>
         </header>
@@ -52,15 +50,15 @@ cleanupExpiredMessages();
         <section class="hero-section">
             <div class="hero-content">
                 <div class="hero-text">
-                    <h1>El sistema operativo<br>de tu empresa</h1>
-                    <p class="hero-description"><?php echo SITE_NAME; ?> es una plataforma de trabajo que reemplaza herramientas dispersas y conecta equipos. Elegida por expertos, apreciada por todos.*</p>
+                    <h1>Mensajería 💬 <br>Temporal y Segura</h1>
+                    <p class="hero-description">En <?php echo SITE_NAME; ?> ofrecemos mensajería sin registros ni datos personales. Nuestros mensajes se autodestruyen al ser leídos, garantizando privacidad total. La manera más discreta y confiable de comunicarte.</p>
                     <div class="hero-actions">
-                        <a href="create.php" class="btn btn-primary">Comenzar gratis <span class="btn-icon">✨</span></a>
-                        <a href="#" class="btn btn-secondary">Programar una demo</a>
+                        <a href="create.php" class="btn btn-primary"> Crear mensaje <span class="btn-icon">✨</span></a>
+                        <a href="view.php" class="btn btn-secondary"> Leer un mensaje <span class="btn-icon">📚</span></a>
                     </div>
                 </div>
                 <div class="hero-image">
-                    <img src="assets/img/dashboard-preview.png" alt="Dashboard Preview">
+                    <img src="assets/img/diseño.png" alt="backend image preview">
                 </div>
             </div>
         </section>
