@@ -553,6 +553,95 @@ a:hover {
     text-align: center;
 }
 
+/* Contact and Support Section Styles */
+.contact-support-section {
+  padding: 80px 0;
+  background-color: var(--section-background);
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-support-section::before {
+  content: "";
+  position: absolute;
+  bottom: -50px;
+  left: -50px;
+  width: 200px;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-radius: 50%;
+  z-index: 0;
+}
+
+.contact-form-container {
+  max-width: 700px;
+  margin: 50px auto 0;
+  background-color: var(--background-color);
+  border-radius: var(--border-radius);
+  padding: 30px;
+  box-shadow: var(--shadow);
+}
+
+.contact-form-container h3 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-group label {
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 12px 15px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+}
+
+.form-group textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.05);
+}
+
+.contact-form .btn {
+  align-self: flex-start;
+  margin-top: 10px;
+}
+
+.solution-card .btn {
+  margin-top: auto;
+  align-self: flex-start;
+}
+
+/* Make the cards display content in a column with button at bottom */
+.contact-support-section .solution-card {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
 /* Footer - Original Footer Styles */
 .site-footer {
     padding: 60px 0 30px;
@@ -779,6 +868,16 @@ a:hover {
     .summary-stat {
         flex: 0 0 100%;
         margin-bottom: 20px;
+    }
+    
+    /* Responsive Contact Form */
+    .contact-form-container {
+        padding: 20px;
+    }
+  
+    .contact-form .btn {
+        align-self: center;
+        width: 100%;
     }
 }
 

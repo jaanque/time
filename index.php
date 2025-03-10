@@ -288,6 +288,127 @@ cleanupExpiredMessages();
 </section>
 
 
+
+<!-- Use Cases Section -->
+<section class="solutions-grid">
+  <h1 class="h1">Casos de Uso</h1>
+  <br><br>
+  <div class="grid-container">
+    <div class="solution-card">
+      <div class="solution-icon product-icon"></div>
+      <h3>Compartir Información Confidencial</h3>
+      <p>Ideal para compartir contraseñas, datos bancarios, o información sensible que no debe quedar almacenada en correos o chats convencionales.</p>
+    </div>
+    
+    <div class="solution-card">
+      <div class="solution-icon agency-icon"></div>
+      <h3>Profesionales Legales</h3>
+      <p>Abogados, notarios y profesionales legales utilizan Nam3 para intercambiar información con clientes manteniendo la confidencialidad exigida por su profesión.</p>
+    </div>
+    
+    <div class="solution-card">
+      <div class="solution-icon software-icon"></div>
+      <h3>Empresas y Organizaciones</h3>
+      <p>Entidades que necesitan compartir credenciales temporales, información de proyectos o datos estratégicos con garantía de eliminación automática.</p>
+    </div>
+    
+    <div class="solution-card">
+      <div class="solution-icon startup-icon"></div>
+      <h3>Comunicaciones Personales</h3>
+      <p>Para conversaciones privadas o comentarios que prefieres que no queden registrados permanentemente en plataformas tradicionales.</p>
+    </div>
+    
+    <div class="solution-card">
+      <div class="solution-icon product-icon"></div>
+      <h3>Equipos de Desarrollo</h3>
+      <p>Comparte credenciales de servidor, tokens de API o accesos temporales con miembros del equipo sin dejar rastro en sistemas de mensajería corporativos.</p>
+    </div>
+    
+    <div class="solution-card">
+      <div class="solution-icon agency-icon"></div>
+      <h3>Atención Médica</h3>
+      <p>Profesionales sanitarios que necesitan compartir información de pacientes de forma segura y cumpliendo con normativas de protección de datos.</p>
+    </div>
+    
+    <div class="solution-card">
+      <div class="solution-icon software-icon"></div>
+      <h3>Comunicaciones Financieras</h3>
+      <p>Asesores y consultores financieros utilizan Nam3 para compartir datos económicos sensibles con garantía de confidencialidad.</p>
+    </div>
+    
+    <div class="solution-card">
+      <div class="solution-icon startup-icon"></div>
+      <h3>Periodistas y Fuentes</h3>
+      <p>Comunicación segura entre periodistas y fuentes confidenciales, garantizando que los intercambios desaparecen sin dejar evidencia digital.</p>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- Contact and Support Section -->
+<section class="contact-support-section">
+  <div class="testimonials-container">
+    <div class="testimonials-header">
+      <h2>Contacto y Soporte</h2>
+      <p class="testimonials-subtitle">Estamos aquí para ayudarte. Contáctanos si tienes preguntas o necesitas asistencia.</p>
+    </div>
+    
+    <div class="grid-container">
+      <div class="solution-card">
+        <div class="solution-icon product-icon"></div>
+        <h3>Soporte Técnico</h3>
+        <p>¿Tienes problemas con el servicio? Nuestro equipo técnico está listo para ayudarte.</p>
+        <a href="soporte.php" class="btn btn-secondary">Obtener Ayuda</a>
+      </div>
+      
+      <div class="solution-card">
+        <div class="solution-icon agency-icon"></div>
+        <h3>Preguntas Frecuentes</h3>
+        <p>Consulta nuestras respuestas a las preguntas más comunes sobre Nam3.es.</p>
+        <a href="faq.php" class="btn btn-secondary">Ver FAQ</a>
+      </div>
+      
+      <div class="solution-card">
+        <div class="solution-icon software-icon"></div>
+        <h3>Contacto Directo</h3>
+        <p>Ponte en contacto con nosotros para dudas específicas o asistencia personalizada.</p>
+        <a href="contacto.php" class="btn btn-secondary">Contactar</a>
+      </div>
+      
+      <div class="solution-card">
+        <div class="solution-icon startup-icon"></div>
+        <h3>Reportar Problemas</h3>
+        <p>¿Encontraste un error o tienes sugerencias para mejorar? Háznoslo saber.</p>
+        <a href="reporte.php" class="btn btn-secondary">Reportar</a>
+      </div>
+    </div>
+    
+    <div class="contact-form-container">
+      <h3>Envíanos un mensaje rápido</h3>
+      <form class="contact-form" action="process-contact.php" method="post">
+        <div class="form-group">
+          <label for="contact-email">Email (opcional)</label>
+          <input type="email" id="contact-email" name="email" placeholder="Tu email para respuesta (opcional)">
+        </div>
+        <div class="form-group">
+          <label for="contact-subject">Asunto</label>
+          <input type="text" id="contact-subject" name="subject" placeholder="Asunto de tu mensaje" required>
+        </div>
+        <div class="form-group">
+          <label for="contact-message">Mensaje</label>
+          <textarea id="contact-message" name="message" placeholder="¿En qué podemos ayudarte?" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+
+
+
         <!-- Footer -->
 <footer class="site-footer">
     <div class="footer-container">
