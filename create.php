@@ -143,6 +143,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                 <label for="attachment">Archivo adjunto (opcional):</label>
                                 <input type="file" id="attachment" name="attachment">
                                 <small class="form-help">
+                                    <strong>Actualmente estamos trabajando en la funcionalidad de archivos adjuntos.</strong><br>
                                     Tamaño máximo: <?php echo formatFileSize(MAX_FILE_SIZE); ?><br>
                                     Formatos permitidos: <?php echo implode(', ', ALLOWED_EXTENSIONS); ?>
                                 </small>
