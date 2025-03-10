@@ -296,11 +296,13 @@ a:hover {
     background-color: white;
     color: var(--primary-color);
     font-weight: 600;
+    border: 1px solid var(--section-background);
 }
 
 .milestone-actions .btn-primary:hover {
-    background-color: rgba(255, 255, 255, 0.9);
-    color: var(--primary-color);
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    border: 1px solid var(--section-background);
 }
 
 .milestone-actions .btn-primary .btn-icon {
@@ -373,18 +375,125 @@ a:hover {
     font-weight: 500;
 }
 
-/* Footer */
+/* Footer - Original Footer Styles */
 .site-footer {
-    padding: 30px 0;
+    padding: 60px 0 30px;
     border-top: 1px solid var(--border-color);
+    background-color: var(--section-background);
     margin-top: auto;
+}
+
+/* Enhanced Footer Styles */
+.footer-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.footer-logo {
+    flex: 0 0 100%;
+    max-width: 300px;
+    margin-bottom: 30px;
+}
+
+.footer-logo img {
+    height: 30px;
+    margin-bottom: 15px;
+}
+
+.footer-logo h3 {
+    margin-bottom: 10px;
+}
+
+.footer-logo p {
+    color: var(--text-light);
+    font-size: 0.9rem;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-around;
+}
+
+.footer-column {
+    flex: 0 0 auto;
+    margin-bottom: 30px;
+    min-width: 160px;
+}
+
+.footer-column h4 {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.footer-column h4::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 30px;
+    height: 2px;
+    background-color: var(--primary-color);
+}
+
+.footer-column ul {
+    list-style: none;
+}
+
+.footer-column ul li {
+    margin-bottom: 12px;
+}
+
+.footer-column ul li a {
+    color: var(--text-light);
+    font-size: 0.95rem;
+    transition: all 0.2s;
+}
+
+.footer-column ul li a:hover {
+    color: var(--primary-color);
+    padding-left: 5px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    border-top: 1px solid var(--border-color);
+    color: var(--text-light);
+    font-size: 0.9rem;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icon {
+    font-size: 1.2rem;
+    transition: transform 0.2s;
+}
+
+.social-links a:hover .social-icon {
+    transform: translateY(-3px);
 }
 
 .footer-content {
     max-width: 1280px;
     margin: 0 auto;
     text-align: center;
-    color: var(--text-light);
+    color: var(--primary-light);
     font-size: 0.9rem;
     padding: 0 20px;
 }
@@ -445,6 +554,36 @@ a:hover {
     .grid-container {
         grid-template-columns: 1fr;
     }
+    
+    /* Responsive Footer */
+    .footer-main {
+        flex-direction: column;
+    }
+    
+    .footer-logo {
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    
+    .footer-links {
+        justify-content: flex-start;
+    }
+    
+    .footer-column {
+        flex: 0 0 50%;
+        padding-right: 20px;
+    }
+    
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .social-links {
+        margin-top: 20px;
+        justify-content: center;
+    }
 }
 
 @media (max-width: 480px) {
@@ -462,5 +601,9 @@ a:hover {
 
     .milestone-content h2 {
         font-size: 1.6rem;
+    }
+    
+    .footer-column {
+        flex: 0 0 100%;
     }
 }

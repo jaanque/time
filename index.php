@@ -102,17 +102,63 @@ cleanupExpiredMessages();
                 <h2>Más de 100.000 mensajes enviados</h2>
                 <p class="milestone-description">Accede a nuestra plataforma de mensajería segura y forma parte de nuestra comunidad de usuarios que confían en nosotros para sus comunicaciones privadas</p>
                 <div class="milestone-actions">
-                    <a href="create.php" class="btn btn-primary">Empezar ahora</a>
+                    <a href="create.php" class="btn btn-primary"> Crear mensaje <span class="btn-icon">✨</span></a>
                 </div>
             </div>
         </section>
 
         <!-- Footer -->
-        <footer class="site-footer">
-            <div class="footer-content">
-                <p>&copy; <?php echo date('Y'); ?> <?php echo SITE_NAME; ?> - Todos los derechos reservados</p>
+<footer class="site-footer">
+    <div class="footer-container">
+        <div class="footer-main">
+            <div class="footer-logo">
+                <img src="assets/img/logo.png" alt="<?php echo SITE_NAME; ?> Logo">
+                <h3>Nam3.es</h3>
+                <p>Mensajería temporal y segura sin registros ni datos personales.</p>
             </div>
-        </footer>
+            
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>Navegación</h4>
+                    <ul>
+                        <li><a href="index.php">Inicio</a></li>
+                        <li><a href="#como-funciona">Cómo Funciona</a></li>
+                        <li><a href="create.php">Crear Mensaje</a></li>
+                        <li><a href="view.php">Leer Mensaje</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="privacidad.php">Política de Privacidad</a></li>
+                        <li><a href="terminos.php">Términos de Uso</a></li>
+                        <li><a href="cookies.php">Política de Cookies</a></li>
+                        <li><a href="aviso-legal.php">Aviso Legal</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li><a href="contacto.php">Formulario de Contacto</a></li>
+                        <li><a href="faq.php">Preguntas Frecuentes</a></li>
+                        <li><a href="soporte.php">Soporte</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; <?php echo date('Y'); ?> <?php echo SITE_NAME; ?> - Todos los derechos reservados</p>
+            <div class="social-links">
+                <a href="#" aria-label="Facebook"><i class="social-icon">📘</i></a>
+                <a href="#" aria-label="Twitter"><i class="social-icon">📙</i></a>
+                <a href="#" aria-label="Instagram"><i class="social-icon">📸</i></a>
+            </div>
+        </div>
+    </div>
+</footer>
     </div>
     
     <script src="assets/js/script.js"></script>
