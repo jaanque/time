@@ -9,7 +9,7 @@
     --text-light: #666666;
     --border-color: #e0e0e0;
     --shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-    --border-radius: 5px;
+    --border-radius: 10px;
     --error-color: #e74c3c;
     --success-color: #27ae60;
     --warning-color: #f1c40f;
@@ -148,31 +148,37 @@ a:hover {
 .btn-primary {
     background-color: var(--primary-color);
     color: white;
+    transition: 1s;
 }
 
 .btn-primary:hover {
     background-color: var(--primary-hover);
     color: white;
+    transition: 1s;
 }
 
 .btn-secondary {
     background-color: transparent;
     border: 1px solid var(--border-color);
     color: var(--text-color);
+    transition: 1s;
 }
 
 .btn-secondary:hover {
     background-color: rgba(0,0,0,0.05);
+    transition: 1s;
 }
 
 .btn-text {
     background-color: transparent;
     color: var(--text-color);
     padding: 10px 15px;
+    transition: 1s;
 }
 
 .btn-text:hover {
     background-color: rgba(0,0,0,0.05);
+    transition: 1s;
 }
 
 .btn-icon {
@@ -241,6 +247,7 @@ a:hover {
 }
 
 .solution-card {
+    border-radius: var(--border-radius);
     background-color: var(--background-color);
     border-radius: 8px;
     padding: 30px;
