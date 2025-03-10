@@ -108,7 +108,47 @@ cleanupExpiredMessages();
         </section>
 
 
-
+        <section class="security-section">
+  <div class="solutions-grid">
+    <h1 class="h1">Cómo Protegemos Tu Privacidad</h1>
+    <br><br>
+    <div class="grid-container">
+      <div class="solution-card">
+        <div class="solution-icon product-icon"></div>
+        <h3>Mensajes Autodestructivos</h3>
+        <p>Cada mensaje se elimina permanentemente de nuestros servidores inmediatamente después de ser leído, sin posibilidad de recuperación.</p>
+      </div>
+      
+      <div class="solution-card">
+        <div class="solution-icon agency-icon"></div>
+        <h3>Sin Registros ni Historiales</h3>
+        <p>No requerimos registro ni almacenamos datos personales. No hay rastros de quién envió o recibió los mensajes.</p>
+      </div>
+      
+      <div class="solution-card">
+        <div class="solution-icon software-icon"></div>
+        <h3>Cifrado de Extremo a Extremo</h3>
+        <p>Todos los mensajes están protegidos con cifrado avanzado, asegurando que solo el destinatario pueda acceder a su contenido.</p>
+      </div>
+      
+      <div class="solution-card">
+        <div class="solution-icon startup-icon"></div>
+        <h3>Caducidad Programada</h3>
+        <p>Aunque no se lean, los mensajes se eliminan automáticamente después de 7 días, garantizando que ninguna información permanezca en nuestros sistemas.</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="milestone-section" style="background-color: var(--primary-color);">
+    <div class="milestone-content">
+      <h2>Comprometidos con tu Confidencialidad</h2>
+      <p class="milestone-description">Nam3 no puede acceder al contenido de tus mensajes. Nuestro sistema está diseñado para que ni siquiera nosotros podamos leer lo que compartes. La verdadera privacidad significa que nadie, absolutamente nadie, puede acceder a tus mensajes excepto el destinatario autorizado.</p>
+      <div class="milestone-actions">
+        <a href="create.php" class="btn btn-primary">Crear mensaje seguro <span class="btn-icon">🔒</span></a>
+      </div>
+    </div>
+  </div>
+</section>
 
 
         <!-- Footer -->
