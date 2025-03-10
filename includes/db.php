@@ -75,9 +75,8 @@ class Database {
     }
     
     public function deleteExpiredMessages() {
-        // Eliminar mensajes que ya han sido vistos o que han expirado
-        $stmt = $this->conn->prepare("DELETE FROM messages WHERE viewed = 1 OR (expires_at IS NOT NULL AND expires_at < NOW())");
+        $stmt = $this->conn->prepare("DELETE FROM messages WHERE viewed = 1 OR created_at < NOW() - INTERVAL 7 DAY");
         return $stmt->execute();
-    }
+    }    
 }
 ?>

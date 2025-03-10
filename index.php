@@ -23,7 +23,7 @@ cleanupExpiredMessages();
         <header class="site-header">
             <div class="nav-container">
                 <div class="logo">
-                    <a href="index.php"><img src="assets/img/logo.png" alt="<?php echo SITE_NAME; ?> Logo">Nam3.es</a>
+                    <a href="index.php"><img src="assets/img/logo.png" alt="<?php echo SITE_NAME; ?> Logo"></a>
                 </div>
                 <nav class="main-nav">
                     <ul>
@@ -99,8 +99,8 @@ cleanupExpiredMessages();
           <!-- Milestone Section -->
           <section class="milestone-section">
             <div class="milestone-content">
-                <h1>Más de 100.000 mensajes enviados 🥰</h1>
-                <p class="milestone-description"> Cada día, más personas eligen Nam3.es para enviar mensajes sin dejar rastro. Sin registros, sin almacenamiento, solo privacidad total y mensajes efímeros que desaparecen tras ser leídos. </p>
+                <h2>Más de 100.000 mensajes enviados</h2>
+                <p class="milestone-description"> Cada día, más personas eligen Nam3 para enviar mensajes sin dejar rastro. Sin registros, sin almacenamiento, solo privacidad total y mensajes efímeros que desaparecen tras ser leídos. </p>
                 <div class="milestone-actions">
                     <a href="create.php" class="btn btn-primary"> Crear mensaje <span class="btn-icon">✨</span></a>
                 </div>
@@ -405,6 +405,10 @@ cleanupExpiredMessages();
     </div>
   </div>
 </section>
+
+
+
+
 
 
 

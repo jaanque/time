@@ -1,6 +1,6 @@
 /* Variables */
 
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap');
 
 :root {
     --primary-color: #000000;
@@ -17,7 +17,7 @@
     --success-color: #27ae60;
     --warning-color: #f1c40f;
     --teal-color: #008080;
-    --font-sans: "Space Grotesk", sans-serif;
+    --font-sans: "Lexend Deca", sans-serif;
 }
 
 /* Base */
@@ -247,7 +247,8 @@ a:hover {
 }
 
 .milestone-section::before {
-    content: "";
+    content: "❤";
+    font-size: 50px;
     position: absolute;
     bottom: 10%;
     left: 15%;
@@ -259,7 +260,8 @@ a:hover {
 }
 
 .milestone-section::after {
-    content: "";
+    content: "❤";
+    font-size: 75px;
     position: absolute;
     top: 20%;
     right: 15%;
@@ -315,7 +317,7 @@ a:hover {
 
 /* Solutions Grid */
 .solutions-grid {
-    padding: 60px 0;
+    padding: 100px 0;
     background-color: var(--section-background);
 }
 
@@ -329,9 +331,9 @@ a:hover {
 }
 
 .solution-card {
+    border: 1px solid var(--border-color);
     border-radius: var(--border-radius);
     background-color: var(--background-color);
-    border-radius: 8px;
     padding: 30px;
     box-shadow: var(--shadow);
     position: relative;
@@ -906,3 +908,4 @@ a:hover {
         font-size: 1.6rem;
     }
 }
+
