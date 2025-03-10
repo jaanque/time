@@ -99,7 +99,7 @@ cleanupExpiredMessages();
           <!-- Milestone Section -->
           <section class="milestone-section">
             <div class="milestone-content">
-                <h2>Más de 100.000 mensajes enviados 🥰</h2>
+                <h1>Más de 100.000 mensajes enviados 🥰</h1>
                 <p class="milestone-description"> Cada día, más personas eligen Nam3.es para enviar mensajes sin dejar rastro. Sin registros, sin almacenamiento, solo privacidad total y mensajes efímeros que desaparecen tras ser leídos. </p>
                 <div class="milestone-actions">
                     <a href="create.php" class="btn btn-primary"> Crear mensaje <span class="btn-icon">✨</span></a>
@@ -141,7 +141,7 @@ cleanupExpiredMessages();
   
   <div class="milestone-section" style="background-color: var(--primary-color);">
     <div class="milestone-content">
-      <h2>Comprometidos con tu Confidencialidad</h2>
+      <h1>Comprometidos con tu Confidencialidad</h1>
       <p class="milestone-description">Nam3 no puede acceder al contenido de tus mensajes. Nuestro sistema está diseñado para que ni siquiera nosotros podamos leer lo que compartes. La verdadera privacidad significa que nadie, absolutamente nadie, puede acceder a tus mensajes excepto el destinatario autorizado.</p>
       <div class="milestone-actions">
         <a href="create.php" class="btn btn-primary">Crear mensaje seguro <span class="btn-icon">🔒</span></a>
@@ -204,7 +204,7 @@ cleanupExpiredMessages();
 <section class="testimonials-section">
   <div class="testimonials-container">
     <div class="testimonials-header">
-      <h2>Lo que dicen nuestros usuarios</h2>
+      <h1>Lo que dicen nuestros usuarios</h1>
       <p class="testimonials-subtitle">Miles de personas confían en Nam3.es para sus comunicaciones confidenciales</p>
     </div>
     
@@ -351,7 +351,7 @@ cleanupExpiredMessages();
 <section class="contact-support-section">
   <div class="testimonials-container">
     <div class="testimonials-header">
-      <h2>Contacto y Soporte</h2>
+      <h1>Contacto y Soporte</h1>
       <p class="testimonials-subtitle">Estamos aquí para ayudarte. Contáctanos si tienes preguntas o necesitas asistencia.</p>
     </div>
     
@@ -462,5 +462,6 @@ cleanupExpiredMessages();
     </div>
     
     <script src="assets/js/script.js"></script>
+
 </body>
 </html>
