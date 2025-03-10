@@ -63,6 +63,8 @@ cleanupExpiredMessages();
             </div>
         </section>
 
+      
+
         <!-- Solutions Grid -->
          <div id="#como-funciona">
         <section class="solutions-grid">
@@ -92,6 +94,18 @@ cleanupExpiredMessages();
             </div>
         </section>
         </div>
+
+
+          <!-- Milestone Section -->
+          <section class="milestone-section">
+            <div class="milestone-content">
+                <h2>Más de 100.000 mensajes enviados</h2>
+                <p class="milestone-description">Accede a nuestra plataforma de mensajería segura y forma parte de nuestra comunidad de usuarios que confían en nosotros para sus comunicaciones privadas</p>
+                <div class="milestone-actions">
+                    <a href="create.php" class="btn btn-primary">Empezar ahora <span class="btn-icon">→</span></a>
+                </div>
+            </div>
+        </section>
 
         <!-- Footer -->
         <footer class="site-footer">
