@@ -107,6 +107,45 @@ cleanupExpiredMessages();
             </div>
         </section>
 
+
+        <!-- Social Proof Section -->
+<section class="testimonials-section">
+    <div class="testimonials-container">
+        <h2 class="testimonials-title">The simplest way to create forms</h2>
+        <p class="testimonials-subtitle">Say goodbye to boring forms. Meet Tally — the free, intuitive form builder you've been looking for.</p>
+        
+        <div class="testimonials-cta">
+            <a href="create.php" class="btn btn-primary">Create a free form <span class="btn-icon">→</span></a>
+            <p class="no-signup">No signup required</p>
+        </div>
+        
+        <div class="testimonials-illustrations">
+            <div class="illustration-left">
+                <div class="speech-bubble">
+                    <p>¡Genial!</p>
+                </div>
+                <div class="avatar-icon"></div>
+            </div>
+            
+            <div class="form-preview">
+                <div class="form-header"></div>
+                <div class="form-content">
+                    <h3>Register now</h3>
+                    <p>Claim your spot for our annual no-code conference on October 12th, 2023. Get ready to be inspired by the industry-leading speakers and learn from the best. We're starting at 7pm!</p>
+                </div>
+            </div>
+            
+            <div class="illustration-right">
+                <div class="speech-bubble">
+                    <p>Yes!</p>
+                </div>
+                <div class="avatar-icon"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
         <!-- Footer -->
 <footer class="site-footer">
     <div class="footer-container">
