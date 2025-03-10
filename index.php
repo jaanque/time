@@ -23,7 +23,7 @@ cleanupExpiredMessages();
         <header class="site-header">
             <div class="nav-container">
                 <div class="logo">
-                    <a href="index.php"><img src="assets/img/logo.svg" alt="<?php echo SITE_NAME; ?> Logo">Nam3.es</a>
+                    <a href="index.php"><img src="assets/img/logo.png" alt="<?php echo SITE_NAME; ?> Logo">Nam3.es</a>
                 </div>
                 <nav class="main-nav">
                     <ul>

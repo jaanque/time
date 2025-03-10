@@ -85,7 +85,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <header>
             <div class="logo">
                 <a href="index.php">
-                    <img src="assets/img/logo.svg" alt="<?php echo SITE_NAME; ?> Logo">
+                    <img src="assets/img/logo.png" alt="<?php echo SITE_NAME; ?> Logo">
                     <h1><?php echo SITE_NAME; ?></h1>
                 </a>
             </div>
