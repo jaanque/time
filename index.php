@@ -141,7 +141,7 @@ cleanupExpiredMessages();
   
   <div class="milestone-section" style="background-color: var(--primary-color);">
     <div class="milestone-content">
-      <h1>Comprometidos con tu Confidencialidad</h1>
+      <h2>Comprometidos con tu Confidencialidad</h2>
       <p class="milestone-description">Nam3 no puede acceder al contenido de tus mensajes. Nuestro sistema está diseñado para que ni siquiera nosotros podamos leer lo que compartes. La verdadera privacidad significa que nadie, absolutamente nadie, puede acceder a tus mensajes excepto el destinatario autorizado.</p>
       <div class="milestone-actions">
         <a href="create.php" class="btn btn-primary">Crear mensaje seguro <span class="btn-icon">🔒</span></a>
