@@ -1,20 +1,10 @@
-# Include folder
+# Ignorar la carpeta include
 /include/
 
-# Ignore log files
-*.log
-
-# Ignore environment variables file
-.env
-
-# Ignore build directories
-dist/
-build/
-
-# Ignore IDE specific files
-.vscode/
-.idea/
-
-# Ignore OS generated files
-.DS_Store
-Thumbs.db
+# Ignorar archivos sensibles
+*.env
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
