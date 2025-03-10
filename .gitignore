@@ -1,5 +1,5 @@
 # Include folder
-/include
+/include/
 
 # Ignore log files
 *.log
