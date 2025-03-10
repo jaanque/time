@@ -99,8 +99,8 @@ cleanupExpiredMessages();
           <!-- Milestone Section -->
           <section class="milestone-section">
             <div class="milestone-content">
-                <h2>Más de 100.000 mensajes enviados</h2>
-                <p class="milestone-description">Accede a nuestra plataforma de mensajería segura y forma parte de nuestra comunidad de usuarios que confían en nosotros para sus comunicaciones privadas</p>
+                <h2>Más de 100.000 mensajes enviados 🥰</h2>
+                <p class="milestone-description"> Cada día, más personas eligen Nam3.es para enviar mensajes sin dejar rastro. Sin registros, sin almacenamiento, solo privacidad total y mensajes efímeros que desaparecen tras ser leídos. </p>
                 <div class="milestone-actions">
                     <a href="create.php" class="btn btn-primary"> Crear mensaje <span class="btn-icon">✨</span></a>
                 </div>
@@ -152,9 +152,7 @@ cleanupExpiredMessages();
         <div class="footer-bottom">
             <p>&copy; <?php echo date('Y'); ?> <?php echo SITE_NAME; ?> - Todos los derechos reservados</p>
             <div class="social-links">
-                <a href="#" aria-label="Facebook"><i class="social-icon">📘</i></a>
-                <a href="#" aria-label="Twitter"><i class="social-icon">📙</i></a>
-                <a href="#" aria-label="Instagram"><i class="social-icon">📸</i></a>
+                <a href="#" aria-label="Github"><i class="social-icon">📘</i></a>
             </div>
         </div>
     </div>

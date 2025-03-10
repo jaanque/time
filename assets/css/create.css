@@ -1,4 +1,7 @@
 /* Global styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
 :root {
     --primary-color: #3561ff;
     --secondary-color: #f5f5f5;
@@ -18,7 +21,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+    font-family: "Space Grotesk", sans-serif;
   }
   
   body {
