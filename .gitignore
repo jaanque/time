@@ -1,6 +1,7 @@
 # Ignorar la carpeta include
 /include/
 
+
 # Ignorar archivos sensibles
 *.env
 *.key

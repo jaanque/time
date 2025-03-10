@@ -462,5 +462,31 @@ cleanupExpiredMessages();
     </div>
     
     <script src="assets/js/script.js"></script>
+
+    <!-- FIREBASE SCRIPT -->
+    <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyDBoN1orwWpfG7tQpTt45SSAuf6zrgxmbg",
+    authDomain: "time-6cfc2.firebaseapp.com",
+    projectId: "time-6cfc2",
+    storageBucket: "time-6cfc2.firebasestorage.app",
+    messagingSenderId: "1060315136568",
+    appId: "1:1060315136568:web:e041c424e97e2d47cd1ccd",
+    measurementId: "G-37ZQL0K13M"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+
 </body>
 </html>
