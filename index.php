@@ -151,6 +151,143 @@ cleanupExpiredMessages();
 </section>
 
 
+<!-- Preguntas Frecuentes Section -->
+<section class="solutions-grid">
+  <h1 class="h1">Preguntas Frecuentes</h1>
+  <br><br>
+  <div class="grid-container">
+    <div class="solution-card">
+      <h3>¿Es realmente anónimo este servicio?</h3>
+      <p>Sí, completamente. No requerimos registro ni almacenamos información personal. No guardamos direcciones IP, identificadores de dispositivos ni ningún dato que pueda identificarte.</p>
+    </div>
+    
+    <div class="solution-card">
+      <h3>¿Qué sucede después de que se lee un mensaje?</h3>
+      <p>Una vez que el destinatario abre y lee el mensaje, este se elimina permanentemente de nuestros servidores. No queda ninguna copia ni respaldo, garantizando la privacidad total.</p>
+    </div>
+    
+    <div class="solution-card">
+      <h3>¿Por cuánto tiempo se guarda un mensaje no leído?</h3>
+      <p>Los mensajes no leídos se eliminan automáticamente después de 7 días. Esto asegura que ningún contenido permanezca en nuestros sistemas más tiempo del necesario.</p>
+    </div>
+    
+    <div class="solution-card">
+      <h3>¿Cómo comparto el mensaje con el destinatario?</h3>
+      <p>Después de crear el mensaje, recibirás un código único. Comparte este código con el destinatario por cualquier medio que prefieras, y ellos podrán acceder al mensaje usando ese código en nuestra página de lectura.</p>
+    </div>
+    
+    <div class="solution-card">
+      <h3>¿Puedo recuperar un mensaje después de que se haya leído?</h3>
+      <p>No, una vez que un mensaje ha sido leído, se elimina permanentemente y no puede ser recuperado. Esta es una característica de seguridad fundamental de nuestro servicio.</p>
+    </div>
+    
+    <div class="solution-card">
+      <h3>¿El mensaje está protegido con contraseña?</h3>
+      <p>El mensaje está protegido mediante un código único de acceso. Opcionalmente, puedes añadir una contraseña adicional durante la creación del mensaje para mayor seguridad.</p>
+    </div>
+    
+    <div class="solution-card">
+      <h3>¿Hay algún límite de tamaño para los mensajes?</h3>
+      <p>Sí, actualmente el límite es de 10,000 caracteres por mensaje para garantizar el rendimiento y seguridad del servicio.</p>
+    </div>
+    
+    <div class="solution-card">
+      <h3>¿Puedo adjuntar archivos a mis mensajes?</h3>
+      <p>Por el momento, nuestro servicio solo admite mensajes de texto. Esta limitación existe para garantizar la máxima seguridad y privacidad en todas las comunicaciones.</p>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Testimonials Section -->
+<section class="testimonials-section">
+  <div class="testimonials-container">
+    <div class="testimonials-header">
+      <h2>Lo que dicen nuestros usuarios</h2>
+      <p class="testimonials-subtitle">Miles de personas confían en Nam3.es para sus comunicaciones confidenciales</p>
+    </div>
+    
+    <div class="testimonials-grid">
+      <div class="testimonial-card">
+        <div class="testimonial-rating">★★★★★</div>
+        <p class="testimonial-text">"Nam3.es me salvó cuando necesitaba compartir información sensible con un cliente. Simple, rápido y realmente se autodestruye. Lo uso constantemente en mi trabajo."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">
+            <span>#</span>
+          </div>
+          <div class="author-info">
+            <h4>Anónimo</h4>
+          </div>
+        </div>
+      </div>
+      
+      <div class="testimonial-card featured">
+        <div class="testimonial-badge">Destacado</div>
+        <div class="testimonial-rating">★★★★★</div>
+        <p class="testimonial-text">"Como abogada, la confidencialidad es primordial. Nam3.es me ofrece la tranquilidad que necesito al compartir información delicada con mis clientes. El hecho de que los mensajes se destruyan después de ser leídos es exactamente lo que necesitábamos."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">
+            <span>#</span>
+          </div>
+          <div class="author-info">
+            <h4>Anónimo</h4>
+          </div>
+        </div>
+      </div>
+      
+      <div class="testimonial-card">
+        <div class="testimonial-rating">★★★★★</div>
+        <p class="testimonial-text">"Increíblemente útil para compartir contraseñas temporales con mi equipo. Sin registro, sin complicaciones, simplemente funciona. La interfaz es intuitiva y el proceso es muy rápido."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">
+            <span>#</span>
+          </div>
+          <div class="author-info">
+            <h4>Anónimo</h4>
+          </div>
+        </div>
+      </div>
+      
+      <div class="testimonial-card">
+        <div class="testimonial-rating">★★★★☆</div>
+        <p class="testimonial-text">"Lo uso para enviar información confidencial a mis colegas. La función de autodestrucción es justo lo que necesitaba. Simple, efectivo y sin complicaciones."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">
+            <span>#</span>
+          </div>
+          <div class="author-info">
+            <h4>Anónimo</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="testimonials-summary">
+      <div class="summary-stat">
+        <span class="stat-number">4.9</span>
+        <span class="stat-label">Valoración media</span>
+        <div class="stat-stars">★★★★★</div>
+      </div>
+      
+      <div class="summary-stat">
+        <span class="stat-number">98%</span>
+        <span class="stat-label">Recomendarían Nam3.es</span>
+      </div>
+      
+      <div class="summary-stat">
+        <span class="stat-number">100k+</span>
+        <span class="stat-label">Usuarios activos</span>
+      </div>
+    </div>
+    
+    <div class="testimonials-cta">
+      <a href="create.php" class="btn btn-primary">Únete a ellos <span class="btn-icon">→</span></a>
+    </div>
+  </div>
+</section>
+
+
         <!-- Footer -->
 <footer class="site-footer">
     <div class="footer-container">

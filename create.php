@@ -139,6 +139,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                 <small class="form-help">Si añades una contraseña, será requerida para leer el mensaje</small>
                             </div>
                             
+                            <!-- File attachment
                             <div class="form-group">
                                 <label for="attachment">Archivo adjunto (opcional):</label>
                                 <input type="file" id="attachment" name="attachment">
@@ -147,7 +148,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                     Tamaño máximo: <?php echo formatFileSize(MAX_FILE_SIZE); ?><br>
                                     Formatos permitidos: <?php echo implode(', ', ALLOWED_EXTENSIONS); ?>
                                 </small>
-                            </div>
+                            </div> -->
                             
                             <div class="form-actions">
                                 <a href="index.php" class="button secondary">Cancelar</a>
